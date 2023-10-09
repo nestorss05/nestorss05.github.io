@@ -1,14 +1,13 @@
 <html>
 	<head>
-		<title>Ejercicios de NSS</title>
+		<title>Ejercicio 1</title>
 		<meta charset="UTF-8">
-        <meta name="description" content="Pagina principal">
+        <meta name="description" content="Ejercicio 1">
         <meta name="author" content="Néstor Sánchez">
         <link rel="stylesheet" href="miestilo.css">
 	</head>
 	<body>
 		<h1>Ejercicios de NSS</h1>
 		<h2>1º DAM. IES Nervión. Curso 2023-2024</h2>
-		<p1><a href="ej1.html">Ej1</a></p1>
 	</body>
 </html>
