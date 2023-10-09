@@ -11,16 +11,16 @@
             p {color: blue;}
         </style> 
     </head>
-    <body>
-        <h1>Xd</h1>
+    <body onload="saludo()">
+        <h1 id="titulo" onclick="cambia_color()">Xd</h1>
         <p>Parrafin</p>
-    <script>
-        function saludo() {
-        alert("Bienvenido");
-        }
-        function cambia_color() {
-        document.getElementById("titulo").style.color = "darkgreen";
-        }
-</script>     
+        <script>
+            function saludo() {
+            alert("Bienvenido");
+            }
+            function cambia_color() {
+            document.getElementById("titulo").style.color = "darkgreen";
+            }
+        </script>     
     </body>
 </html>
