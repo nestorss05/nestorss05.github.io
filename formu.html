@@ -7,7 +7,57 @@
         <link rel="stylesheet" href="miestilo.css">
   </head>
   <body>
-    
+	<form action="https://www.w3schools.com/action_page.php">
+		<fieldset>
+			<legend> Recetinhas </legend>
+			<label for="nombre">Nombre de la receta:</label>
+				<input type="text" id="nombre"><br>
+			<label for="correo">Correo del autor:</label>
+				<input type="email" id="correo"><br>
+			<label for="momento">Momento para comer:</label><br>
+				<input name="momento" type="radio" value="Desayuno"> Desayuno<br>
+				<input name="momento" type="radio" value="Almuerzo"> Almuerzo<br>
+				<input name="momento" type="radio" value="Merienda"> Merienda<br>
+				<input name="momento" type="radio" value="Cena"> Cena<br>
+				<input name="momento" type="radio" value="Postre"> Postre<br>
+			<label for="ingredientes">Ingredentes necesarios:</label><br>
+				<select name="ingredientes" id="ingredientes">
+		            <optgroup label="Carne">
+		                <option>Ternera</option>
+		                <option>Cerdo</option>
+		                <option>Conejo</option>
+		            </optgroup>
+		            <optgroup label="Pescado">
+		                <option>Atun</option>
+		                <option>Salmon</option>
+		                <option>Sardina</option>
+		                <option>Acedia</option>
+		            </optgroup>
+		            <optgroup label="Verdura">
+		                <option>Pimiento</option>
+		                <option>Tomate</option>
+		                <option>Zanahoria</option>
+		                <option>Cebolla</option>
+		            </optgroup>
+		            <optgroup label="Fruta">
+		                <option>Manzana</option>
+		                <option>Pera</option>
+		                <option>Platano</option>
+		                <option>Uva</option>
+		            </optgroup>
+		        </select><br>
+			<label for="horas">Tiempo de preparacion (horas):</label><br>
+				<input name="horas" type="radio" value="0"> 0<br>
+				<input name="horas" type="radio" value="1"> 1<br>
+				<input name="horas" type="radio" value="2"> 2<br>
+			<label for="minutos">Tiempo de preparacion (minutos):</label><br>
+				<input name="minutos" type="radio" value="0"> 0<br>
+				<input name="minutos" type="radio" value="15"> 15<br>
+				<input name="minutos" type="radio" value="30"> 30<br>
+				<input name="minutos" type="radio" value="45"> 45<br>
+			<input type="submit" name="enviar" value="Enviar">
+		</fieldset>
+	</form>
     <br>
     <p><a href="index.html">Volver</a></p>
   </body>
