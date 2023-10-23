@@ -15,11 +15,11 @@
 			<label for="correo">Correo del autor:</label>
 				<input name="correo" type="email" id="correo" required><br>
 			<label for="momento">Momento para comer:</label><br>
-				<input name="momento[]" type="checkbox" value="Desayuno"> Desayuno<br>
-				<input name="momento[]" type="checkbox" value="Almuerzo"> Almuerzo<br>
-				<input name="momento[]" type="checkbox" value="Merienda"> Merienda<br>
-				<input name="momento[]" type="checkbox" value="Cena"> Cena<br>
-				<input name="momento[]" type="checkbox" value="Postre"> Postre<br>
+				<input name="momento[]" id="desayuno" type="radio" value="Desayuno" required> Desayuno<br>
+				<input name="momento[]" id="almuerzo" type="radio" value="Almuerzo" required> Almuerzo<br>
+				<input name="momento[]" id="merienda" type="radio" value="Merienda" required> Merienda<br>
+				<input name="momento[]" id="cena" type="radio" value="Cena" required> Cena<br>
+				<input name="momento[]" id="postre" type="radio" value="Postre" required> Postre<br>
 			<label for="ingredientes">Ingredentes necesarios:</label><br>
 				<select name="ingredientes[]" id="ingredientes" required>
 		            <optgroup label="Carne">
@@ -46,12 +46,18 @@
 		                <option>Uva</option>
 		            </optgroup>
 		        </select><br>
-			<label>Tiempo de preparacion:</label><br>
-				<input type="number" name="horas" max="2" min="0"><br>
-				<input type="number" name="minutos" max="45" min="0" step="15"><br>
+			<label>Tiempo de preparacion en horas:</label><br>
+				<input name="horas" id="hora0" type="radio" value="0" required> 0<br>
+    			<input name="horas" id="hora1" type="radio" value="1" required> 1<br>
+    			<input name="horas" id="hora2" type="radio" value="2" required> 2<br>
+        	<label>Tiempo de preparacion en minutos:</label><br>
+        		<input name="minutos" id="minuto0" type="radio" value="0" required> 0<br>
+    			<input name="minutos" id="minuto15" type="radio" value="15" required> 15<br>
+    			<input name="minutos" id="minuto30" type="radio" value="30" required> 30<br>
+    			<input name="minutos" id="minuto45" type="radio" value="45" required> 45<br>
 			<label for="foto">FOTO</label><br>
 				<input name="foto" type="file"><br><br>
-			<input type="submit" name="enviar" value="Enviar">
+			<input type="submit" name="enviar" id="foto0" value="Enviar">
 		</fieldset>
 	</form>
     <br>
