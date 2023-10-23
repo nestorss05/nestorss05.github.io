@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="miestilo.css">
   </head>
   <body>
-	<form action="https://www.w3schools.com/action_page.php">
+	<form action="https://lm.ciclo.iesnervion.es/" method="post">
 		<fieldset>
 			<legend> Recetinhas </legend>
 			<label for="nombre">Nombre de la receta:</label>
@@ -15,13 +15,13 @@
 			<label for="correo">Correo del autor:</label>
 				<input name="correo" type="email" id="correo" required><br>
 			<label for="momento">Momento para comer:</label><br>
-				<input name="momento" type="radio" value="Desayuno" required> Desayuno<br>
-				<input name="momento" type="radio" value="Almuerzo" required> Almuerzo<br>
-				<input name="momento" type="radio" value="Merienda" required> Merienda<br>
-				<input name="momento" type="radio" value="Cena" required> Cena<br>
-				<input name="momento" type="radio" value="Postre" required> Postre<br>
+				<input name="momento[]" type="radio" value="Desayuno" required> Desayuno<br>
+				<input name="momento[]" type="radio" value="Almuerzo" required> Almuerzo<br>
+				<input name="momento[]" type="radio" value="Merienda" required> Merienda<br>
+				<input name="momento[]" type="radio" value="Cena" required> Cena<br>
+				<input name="momento[]" type="radio" value="Postre" required> Postre<br>
 			<label for="ingredientes">Ingredentes necesarios:</label><br>
-				<select name="ingredientes" id="ingredientes" required>
+				<select name="ingredientes[]" id="ingredientes" required>
 		            <optgroup label="Carne">
 		                <option>Ternera</option>
 		                <option>Cerdo</option>
@@ -46,15 +46,9 @@
 		                <option>Uva</option>
 		            </optgroup>
 		        </select><br>
-			<label for="horas">Tiempo de preparacion (horas):</label><br>
-				<input name="horas" type="radio" value="0" required> 0<br>
-				<input name="horas" type="radio" value="1" required> 1<br>
-				<input name="horas" type="radio" value="2" required> 2<br>
-			<label for="minutos">Tiempo de preparacion (minutos):</label><br>
-				<input name="minutos" type="radio" value="0" required> 0<br>
-				<input name="minutos" type="radio" value="15" required> 15<br>
-				<input name="minutos" type="radio" value="30" required> 30<br>
-				<input name="minutos" type="radio" value="45" required> 45<br>
+			<label>Tiempo de preparacion:</label><br>
+				<input type="number" name="horas" max="2" min="0"><br>
+				<input type="number" name="minutos" max="45" min="0" step="15"><br>
 			<label for="foto">FOTO</label><br>
 				<input name="foto" type="file"><br><br>
 			<input type="submit" name="enviar" value="Enviar">
