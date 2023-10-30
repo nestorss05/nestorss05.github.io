@@ -11,4 +11,6 @@ body {
 	color: steelblue;
 	font-family: sans-serif;
 	margin: 12px, 12px, 12px, 12px;
+	border-color: steelblue;
+	border-radius: 4px;
 }
