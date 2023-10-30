@@ -1,16 +1,14 @@
 h1 {
-	color: #1a5276;
+	color: steelblue;
 	font-family: sans-serif;
 }
 h2 {
-	color: #5499c7;
-	font-family: sans-serif;
-}
-h6 {
-	color: red;
+	color: steelblue;
 	font-family: sans-serif;
 }
 body {
-	background-color: #1c2833;
-	color: #eaecee;
+	background-color: lightsteelblue;
+	color: steelblue;
+	font-family: sans-serif;
+	margin: 12px, 12px, 12px, 12px;
 }
