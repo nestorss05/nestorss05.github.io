@@ -1,0 +1,24 @@
+#t1 {
+	border: 1px solid;
+	width: 50%;	
+	margin: auto;
+}
+
+.t1s {
+	border: 1px solid;
+	padding: 10px;
+}
+
+.tabla2 {
+	width: 50%;
+	border: 1px solid;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.t21 {
+	border: 1px solid;
+	padding: 10px;
+	margin: 1px;
+}
