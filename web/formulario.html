@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+	<h1> Formulario </h1>
+	<form action="https://www.w3schools.com/action_page.php" method="post">
+		<fieldset>
+			<legend> Recetinhas </legend>
+			<label for="nombre">Nombre:</label>
+				<input name="nombre" type="text" id="nombre" required><br>
+			<label for="correo">Correo Electronico:</label>
+				<input name="correo" type="email" id="correo" required><br>
+			<label for="telefono">Telefono:</label>
+				<input name="telefono" type="number" id="telefono" required><br>
+			<label for="asunto">Asunto:</label>
+				<input name="asunto" type="text" id="asunto" required><br>
+			<label for="mensaje">Mensaje:</label>
+				<input name="mensaje" type="text" id="mensaje" required><br>
+			<label for="promos">¿Deseas recibir nuestras promociones por correo electronico?</label><br>
+				<input name="promos" id="promosi" type="radio" value="promosi" required> Si, deseo recibir ofertas y novedades.<br>
+    			<input name="promos" id="promono" type="radio" value="promono" required> No, no deseo recibir ofertas y novedades.<br> <br>
+			<input type="submit" name="enviar" id="enviar" value="Enviar">
+			<input type="reset" name="borrar" id="borrar" value="Borrar">
+		</fieldset>
+	</form>
+
+	<p align=right>
+	<br> <a href="../index.html"> <img src="../img/goback.png" alt="NO IMAGEN 1" height="32"> </a>
+	</p>
+
+</body>
+</html>
