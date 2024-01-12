@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>El canalsito de nestorss</title>
+    <link>Enlace al Canal</link>
+    <description>El canal de RSS oficial del Gobierno Nestoriano</description>
+    <language>Español</language>
+
+    <item>
+      <title>El Gobierno Nestoriano va a acabar con la inmunidad de Canal 5 Nestoria</title>
+      <link>https://www.youtube.com/watch?v=dQw4w9WgXcQ</link>
+      <description>El canal tradicionalista cuyas transmisiones iniciaron en noviembre de 2009 dejara de ser inmune en cualquier momento de principios de año</description>
+      <pubDate>12 de enero de 2024</pubDate>
+    </item>
+
+    <item>
+      <title>El PIB de la Republica Nestoriana aumenta en un 2500% desde diciembre de 2022</title>
+      <link>https://www.youtube.com/watch?v=dQw4w9WgXcQ</link>
+      <description>Desde el momento en el que Aspire llego al cargo del Primer Ministro, el pais ha tenido el mejor avance de su historia desde junio de 2019 con el surgimiento del Canal 3 de la RTPN</description>
+      <pubDate>5 de enero de 2024</pubDate>
+    </item>
+  </channel>
+</rss>
+
